@@ -23,11 +23,13 @@ export default function Hero() {
 
         <h1 className="text-4xl md:text-6xl font-bold mb-6">Sage Fornshell</h1>
         <p className="text-xl md:text-2xl mb-8">
-          Sales Professional & Business Consultant
+          Sales Professional @ Kansas State University
         </p>
-        <Button className="bg-primary hover:bg-primary/90">
-          Learn More <ArrowRight className="ml-2 h-4 w-4" />
-        </Button>
+        <a href="#experience">
+          <Button className="bg-primary hover:bg-primary/90">
+            Learn More <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
+        </a>
       </div>
     </div>
   );

@@ -16,8 +16,9 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-2">Education</h3>
                 <p>Kansas State University</p>
                 <p className="text-muted-foreground">
-                  B.S. Business Administration
+                  Professional Strategic Selling
                 </p>
+
                 <Badge className="mt-2">GPA: 3.7</Badge>
               </div>
             </CardContent>
