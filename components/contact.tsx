@@ -37,7 +37,7 @@ export default function Contact() {
                 className="flex items-center space-x-3 text-muted-foreground hover:text-primary"
               >
                 <Mail className="h-5 w-5" />
-                <span>sagemarie03@ksu.edu</span>
+                <span>sage.fornshell@gmail.com</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/sagefornshell"
