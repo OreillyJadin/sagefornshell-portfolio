@@ -1,18 +1,29 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Linkedin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-secondary py-8">
       <div className="container mx-auto px-4">
         <div className="flex justify-center space-x-6 mb-4">
-          <a href="#" className="text-foreground hover:text-primary">
+          <a
+            href="https://www.linkedin.com/in/sagefornshell"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-primary"
+          >
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="#" className="text-foreground hover:text-primary">
-            <Github className="h-6 w-6" />
-          </a>
-          <a href="#" className="text-foreground hover:text-primary">
+          <a
+            href="mailto:sagemarie03@ksu.edu"
+            className="text-foreground hover:text-primary"
+          >
             <Mail className="h-6 w-6" />
+          </a>
+          <a
+            href="tel:316-773-8951"
+            className="text-foreground hover:text-primary"
+          >
+            <Phone className="h-6 w-6" />
           </a>
         </div>
         <p className="text-center text-muted-foreground">
@@ -20,6 +31,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  )
+  );
 }
-
